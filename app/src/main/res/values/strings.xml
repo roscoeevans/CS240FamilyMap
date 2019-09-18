@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Family Map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="server_port">Server Port</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="server_host">Server Host</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="title_activity_map">Map</string>
+    <string name="click_marker_to_see_event_details">Click marker to see event details</string>
+    <string name="todo">TODO</string>
+    <string name="gender_">GENDER</string>
+    <string name="last_name_">LAST NAME:</string>
+    <string name="first_name_">FIRST NAME:</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="default_gallery_storage">My Videos</string>
+    <string name="title_auto_upload">Auto upload</string>
+    <string name="summary_upload_over_wifi">Upload the videos when wifi is available</string>
+    <string name="title_upload_quality">Upload Quality</string>
+    <string name="summary_logout">return to login screen</string>
+    <string name="pref_map">Map</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_user">User</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">3.5</string>
+    <string name="resync_descript">from family map service</string>
+    <string name="title_resync">Re-Sync Data</string>
+    <string name="title_logout">Logout</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">https://www.androidhive.info/privacy-policy/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">https://www.androidhive.info/privacy-policy/</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">https://www.androidhive.info/terms-of-service/</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="key_logout">key_logout</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="pref_ringtone_silent">wowwwwwww</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="summary_vibrate">Vibrate on new notification</string>
+    <string name="key_mapType">key_mapType</string>
+    <string name="key_treeLines">key_treeLines</string>
+    <string name="key_storyLines">key_storyLines</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_spouseLines">key_spouseLines</string>
+    <string name="resync_data">resync_data</string>
+    <string name="title_activity_filter">FilterActivity</string>
+    <string name="key_baptisms">key_baptisms</string>
+    <string name="key_births">key_births</string>
+    <string name="key_census">key_census</string>
+    <string name="key_christening">key_christening</string>
+    <string name="key_death">key_death</string>
+    <string name="key_marriage">key_marriage</string>
+    <string name="key_father">key_father</string>
+    <string name="key_mother">key_mother</string>
+    <string name="key_male">key_male</string>
+    <string name="key_female">key_female</string>
+    <string name="settings_title">Settings</string>
+    <string name="person_title">Person Details</string>
+    <string name="event_title">Event Details</string>
+    <string name="filter_title">Filters</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+</resources>

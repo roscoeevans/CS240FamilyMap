@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_baptisms"
+        android:summary="filter by baptism events"
+        android:title="Baptism Events" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_births"
+        android:summary="filter by birth events"
+        android:title="Birth Events" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_census"
+        android:summary="show spouse lines"
+        android:title="Spouse Lines" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_storyLines"
+        android:summary="show life story lines"
+        android:title="Life Story Lines" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_treeLines"
+        android:summary="show tree lines"
+        android:title="Family Tree Lines" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_spouseLines"
+        android:summary="show spouse lines"
+        android:title="Spouse Lines" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_storyLines"
+        android:summary="show life story lines"
+        android:title="Life Story Lines" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_treeLines"
+        android:summary="show tree lines"
+        android:title="Family Tree Lines" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_spouseLines"
+        android:summary="show spouse lines"
+        android:title="Spouse Lines" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_spouseLines"
+        android:summary="show spouse lines"
+        android:title="Spouse Lines" />
+
+</PreferenceScreen>

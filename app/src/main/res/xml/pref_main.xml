@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory android:title="@string/pref_map">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_storyLines"
+        android:summary="show life story lines"
+        android:title="Life Story Lines" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:key="storyColor_prefList"
+        android:dependency="@string/key_storyLines"
+        android:title="Change Story Line Color"
+        android:summary="change color of story lines on map"
+        android:entries="@array/color_entries"
+        android:entryValues="@array/color_values" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_treeLines"
+        android:summary="show tree lines"
+        android:title="Family Tree Lines" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:key="treeColor_prefList"
+        android:dependency="@string/key_treeLines"
+        android:title="Change Tree Line Color"
+        android:summary="change color of tree lines on map"
+        android:entries="@array/color_entries"
+        android:entryValues="@array/color_values" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/key_spouseLines"
+        android:summary="show spouse lines"
+        android:title="Spouse Lines" />
+
+    <ListPreference
+        android:key="spouseColor_prefList"
+        android:dependency="@string/key_spouseLines"
+        android:title="Change Spouse Line Color"
+        android:summary="change color of spouse lines on map"
+        android:entries="@array/color_entries"
+        android:entryValues="@array/color_values" />
+
+    <ListPreference
+        android:key="mapType_prefList"
+        android:title="Change Map Type"
+        android:summary="background display on map"
+        android:entries="@array/map_types_entries"
+        android:entryValues="@array/map_types_values" />
+
+
+</PreferenceCategory>
+
+<PreferenceCategory android:title="@string/pref_user">
+
+    <Preference
+        android:key="@string/resync_data"
+        android:summary="@string/resync_descript"
+        android:title="@string/title_resync" />
+
+    <Preference
+        android:key="@string/key_logout"
+        android:summary="@string/summary_logout"
+        android:title="@string/title_logout" />
+
+    <!-- preference opens url in browser -->
+
+</PreferenceCategory>
+</PreferenceScreen>
